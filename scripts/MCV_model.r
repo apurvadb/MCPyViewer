@@ -98,16 +98,6 @@ for (target_sample in unique(geneTrack_df$sample)) {
       insertions_gene[grep('L',insertions_gene$hpvGene),]$col2 = 'turquoise3'
       
       insertions_gene[insertions_gene$type == 'hum',]$y = insertions_gene[insertions_gene$type == 'hum',]$y+0.1
-      #xend1 = x + width
-      #xend2 = x - width
-      #xend = c(xend1,xend2)
-      #y = rep(2,nrow(insertions_gene))
-      #yend = rep(2,nrow(insertions_gene))
-      #data = 'contig'
-      #col = hpvGenome$col1[1:8]
-      #insertions = data.frame(x = x,xend = xend,size = size,type = type,y = y,
-      #yend = yend,data = data,hjust = hjust,col = insertions_gene$col,
-      #dirc = insertions_gene$geneDirection)
       
       
       ##plot mcpv genome
@@ -126,13 +116,7 @@ for (target_sample in unique(geneTrack_df$sample)) {
       hpvGenome$hjust = hjust
       col1 = c('darkgoldenrod1','darkgoldenrod1','mediumslateblue','mediumslateblue','mediumslateblue')
       hpvGenome$col1 = col1
-      #hpvGenome$col2 = 'grey'
-      #hpvGenome[grep('E',hpvGenome$type),]$col2 = 'darkgoldenrod1'
-      #hpvGenome[grep('L',hpvGenome$type),]$col2 = 'mediumslateblue'
-      #hpvGenome$type = recode(hpvGenome$type,`E1BS: E1 binding site` = 'E1BS', `E2BS: E2 binding site` = 'E2BS',
-                              #`E6*`='E6',`E1^E4` = 'E1',`E8^E2` = 'E8')
-      #hpvGenome = hpvGenome[-c(10,11),]
-      #hpvGenome = hpvGenome[c(-8),]
+      
       
       
       ######link segment hpv
@@ -208,33 +192,3 @@ for (target_sample in unique(geneTrack_df$sample)) {
     
   }
 }
-
-
- #+geom_segment(data = filter(insertions_gene,start == 0),mapping = aes(x = xend, y = y - 0.1, xend = xend, yend = 1.7),
-#color = filter(insertions_gene,start == 0)$col2)+
-#geom_segment(data = filter(insertions_gene,start == 0),mapping = aes(x = xend, 
-#                                                                        y = y + 0.2, xend = xend, 
-#                                                                        yend = y + 0.3),
-#                color = 'tan', linetype = 'dashed') +
-#   geom_segment(data = filter(insertions_gene,start == 0),mapping = aes(x = xend, y = y + 0.3, xend = (ins-geneStart)/(geneEnd-geneStart)*10, yend = 2.5),
-#                color = 'tan', linetype = 'dashed') +
-#   geom_segment(data = filter(insertions_gene,start == 0),mapping = aes(x = xend, y = 1.7, xend = hpvSite, yend = 1.2),
-#                color = filter(insertions_gene,start == 0)$col2) 
-# 
-
-
-
-#dev.copy2pdf(,width = 10,height = 6)
-
-
-
-
-#generate colors
-#n <- 18
-#qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
-#col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
-#col1 = sample(col_vector, n)
-
-#######################
-
-

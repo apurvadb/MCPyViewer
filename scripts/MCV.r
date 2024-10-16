@@ -29,15 +29,7 @@ colnames(geneSite) = c('gene','start','end')
 label = read.delim("label.bed",header = FALSE,stringsAsFactors = FALSE)
 colnames(label) = c('chr','start','end','value1')
 
-#track = track[-2,]
-#track[3,1] = 'E4'
 
-# n <- 8
-# qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
-# col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
-# 
-# set.seed(2643598)
-# col_12_sample = sample(col_vector, n)
 col_12_sample = brewer.pal(5, 'Set3')
 col2 = rep("lightBlue",24)
 col = c(col_12_sample[1:3],col_12_sample[1],col_12_sample[4],col_12_sample[1],col_12_sample[5],col_12_sample[4],col2)
@@ -115,8 +107,7 @@ pvalue
 
 ######
 ###microhomology
-scores = c(1, 4, 3, 4, 2, 0, 6, 4, 1, 3, 3, -16, 4, -1, 1, 5, 3, 9, 3, 9, 4, 6, 3, 2, 3, -4, -2, -18, 1, 2, 4, 0, 3, 1, 5, 3, 6, 4, -6, 3, 1, 4, -24, 4, 4, 13, 12, 3, 2, 2, 1, 11, -6, -15, 0, 5, 0, 4, 1, 3, 4, 3, -14, 2, 4, 0, 2, 5, 3, 3, -1, 2, 5, 4, 4, 4, -1, 4, 2, -5, 7, 3, 2, 1, 4, 8, 2, 6, 11, 1, 2, 8, 2, 16, 9, 16, 0, 10, 9, 13, 5, 5, 9, 5, 7, 2, 6, 0, 5, 0, 2, 7, 7, 1, 14, 2, 1, 8, 4, 1, 3, 0, 8, 1, 8, 5, 0, 5, 5, 0, 1, -15, 2, 11, 4, -38, -4, 1, 2)
-#scores = c(1, 4, 3, 4, 2, 0, 6, 4, 1, 3, 3, -16, 4, -1, 1, 5, 3, 9, 3, 9, 4, 6, 3, 2, 3, -4, -2, -18, 1, 2, 4, 0, 3, 1, 5, 3, 6, 4, -6, 3, 1, 4, -24, 4, 3, 13, 12, 3, 2, 2, 1, 11, -6, -15, 0, 5, 0, 4, 1, 3, 4, 3, -14, 2, 4, 0, 2, 5, 3, 3, -1, 2, 5, 4, 4, 4, -1, 4, 2, -5, 7, 3, 2, 1, 4, 8, 2, 6, 11, 1, 2, 8, 2, 16, 9, 16, 0, 10, 9, 13, 5, 5, 9, 5, 7, 2, 6, 0, -10, 2, 7, 7, 1, 14, 2, 1, 8, 4, 1, 3, 8, 1, 8, 5, -10, 1, -15, 2, 11, -38, 1, 2)
+scores = read_csv("score.csv")
 ggplot(NULL) + geom_histogram(aes(scores),stat = 'count',fill = 'orange') + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"),
         text = element_text(size=20), legend.title = element_blank(), axis.text.x = element_text(vjust = 0.5,face = 'bold'),axis.text.y = element_text(face = 'bold'),
