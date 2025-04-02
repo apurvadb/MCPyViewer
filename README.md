@@ -1,21 +1,56 @@
-# virusIntegrationViz
-This repo includes scripts to visualize the contig at virus integration from SearcHPV 
+# MCPyViewer 
+This repo includes scripts to visualize the contig at virus integration from SearchMCPV - edit this part 
 
-## Preprocess for visualization
-1. `analysis_MCV.ipynb`
+If you use the MCPyViewer visualization tool, please cite our manuscript:
+Add citation
 
-    This script contains the preprocess that takes the output files from [SearcHPV](https://github.com/WenjinGudaisy/SearcHPV) to annotate MCPV integrations. The outputs of this script are Supplimentary table 6 and the inputs of `MCV.r`.
-2. `geneModel_MCV.ipynb`
+# searchMCPV
+A MCPV integration point detection tool for targeted capture sequencing data. Details on how to run this tool are described here : https://github.com/WenjinGudaisy/SearcHPV![image](https://github.com/user-attachments/assets/07543b07-c423-41e4-81a2-6452ab564939)
+- update to refelct MCPV genome (Ask Wenjin)
 
-    This scripts implemented the preprocess to visualize MCPV integration gene model in Figure 3 (A-B). The output of this scripts are the inputs of `MCV_model.r`.
-## Visualization
-1. `MCV.r`
+## Getting started
 
-    This script conducted the visualization from Figure 3C and Supplimentary Figure 4.
-2. `MCV_model.r`
+1. Required resources
+    - Unix like environment
+2. Download and install the required resources
+    - Download conda >=22.9.0: [https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+    - Download the "environment.yaml" file under this repository
+    - Create conda environment for MCPyViewer:
 
-    This script visualized the MCPV integration gene model in Figure 3C to Supplimentary Figure 4.
+          conda env create -f [your_path]/environment.yaml
 
+          This command will automatically set up all the third-party tools and packages required for MCPyViewer. The name of the environment is "MCPV_analysis_toolkit" (edit later as needed).
+
+          You can check the packages and tools in this environment by:
+
+            conda list -n MCPV_analysis_toolkit
+
+          You can update the environment by:
+
+            conda env update -f [your_path]/environment.yaml
+
+ 3. Usage
+        - Activate the conda environment
+
+            conda activate MCPV_analysis_toolkit
+
+ # Generate MCPV link plots 
+ Pipeline to generate link plot of viral integration breakpoints within the human and MCPyV genomes and plot showing the distribution of degree of microhomology at breakpoints of MCPyV integrations (shown in Figure 3 (A,B))
+
+    ./MCPV_link_plot.sh -w {workdir} -i samples.txt -o intermediate_files/
+
+Example samples.txt file :
+    Sample
+    tumor1
+    tumor2
+    tumor3
+    .
+    .
+    tumorN
+
+     
+         Outputs are stored in a directory called "MCV_link_plots" 
+    
 
 
 
