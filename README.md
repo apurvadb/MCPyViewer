@@ -5,6 +5,10 @@ If you utilize MCPyViewer in your analysis, please acknowledge our work by citin
 
 **Genomic Signatures of Poor Prognosis in Merkel Cell Carcinoma: A Single-Institution Prospective Study**
 
+# Installation
+
+    git clone https://github.com/apurvadb/MCPyViewer.git
+
 # Prerequisite <h3>Running the "SearcHPV" pipeline</h3> 
 searcHPV is a **viral integration detection** tool developed by our lab, designed to work with custom viral reference genomes. Prior to using MCPyViewer, please execute the searcHPV pipeline to generate viral integration breakpoint data, using the MCPyV genome (NC_010277.2) as the reference file. For step-by-step guidance on running the searcHPV pipeline, refer to the detailed instructions available here : 
 ```
@@ -86,16 +90,18 @@ Usage :
     ./MCPV_geneModel.sh -w <workdir> -g <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -o <path_to_output_dir> -f <ideogram_hg38_file> -s <sample1> <sample2> ...
 
 Note: 
-The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the data/* folder.
+The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder.
 
 Outputs are stored in a directory called "**MCPyV_geneModel_plots**"
 
 Example output :
+
 Representative MCPyV integration events in a tumor.
 
 <p align="center">
     <img src="Images/geneModel.png" alt="Description" width="800">
 </p> 
 
-
+# <h3>Contact</h3> 
+apurvadb@umich.edu
 
