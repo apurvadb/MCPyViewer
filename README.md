@@ -43,7 +43,7 @@ This is required for proper execution of the pipelines.
 
             conda activate MCPyViewer_toolkit
 
- # Generate MCPyV link plots 
+ # <h3>Generate MCPyV link plots</h3>
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
 Usage:
@@ -76,7 +76,7 @@ number of gapped base pairs at each breakpoint was calculated as negative score,
 </p> 
 
 
-# Generate MCPyV gene model plots
+# <h3>Generate MCPyV gene model plots</h3>
 Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Supplementary Figure S4).
 
 Usage :
