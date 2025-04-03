@@ -43,14 +43,14 @@ This is required for proper execution of the pipelines.
 
             conda activate MCPyViewer_toolkit
 
- # Generate MCPV link plots 
+ # Generate MCPyV link plots 
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
 Usage:
 
     ./MCPV_link_plot.sh -w {workdir} -i samples.txt -o intermediate_files/
 
-Note: samples.txt is a text file containing sample names in a single column with column name "Sample".
+Note: The expected format for samples.txt is a text file with sample names listed in a single column, under the header "Sample".
 ```
 # Example of samples.txt
 Sample
@@ -59,7 +59,7 @@ Sample2
 Sample3
 Sample4
 ```
-Outputs are stored in a directory called "**MCV_link_plots**" 
+Outputs are stored in a directory called "**MCPyV_link_plots**" 
 
 Example output plots:
 1. Link plot of viral integration breakpoints within the human and MCPyV genomes, with each line indicating the position of distinct integration breakpoints colored by MCPyV genes that the breakpoint fell within.
@@ -76,7 +76,7 @@ number of gapped base pairs at each breakpoint was calculated as negative score,
 </p> 
 
 
-# Generate MCPV gene model plots
+# Generate MCPyV gene model plots
 Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Supplementary Figure S4).
 
 Usage :
@@ -86,7 +86,7 @@ Usage :
 Note: 
 The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the data/* folder.
 
-Outputs are stored in a directory called "**geneModel_plots**"
+Outputs are stored in a directory called "**MCPyV_geneModel_plots**"
 
 Example output :
 Representative MCPyV integration events in a tumor.
