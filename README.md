@@ -1,12 +1,11 @@
 # MCPyViewer 
-This repo includes scripts to visualize the contig at virus integration from SearchMCPV - edit this part 
+This repo includes scripts to visualize the contig at virus integration using the results from SearcHPV - edit this part 
 
 If you use the MCPyViewer visualization tool, please cite our manuscript:
 Add citation
 
-# searchMCPV
-A MCPV integration point detection tool for targeted capture sequencing data. Details on how to run this tool are described here : https://github.com/WenjinGudaisy/SearcHPV![image](https://github.com/user-attachments/assets/07543b07-c423-41e4-81a2-6452ab564939)
-- update to refelct MCPV genome (Ask Wenjin)
+# searcHPV
+A viral integration point detection tool for targeted capture sequencing data. Details on how to run this tool are described here : https://github.com/WenjinGudaisy/SearcHPV
 
 ## Getting started
 
