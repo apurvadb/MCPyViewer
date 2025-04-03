@@ -80,7 +80,7 @@ Example output :
 Representative MCPyV integration events in a tumor.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/1837182a-8d7b-467f-8752-94f7547ac4b4" alt="Description" width="700">
+    <img src="Images/geneModel.png" alt="Description" width="800">
 </p> 
 
 
