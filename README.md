@@ -48,8 +48,40 @@ Sample2
 Sample3
 Sample4
 ```
-Outputs are stored in a directory called "MCV_link_plots" 
-    
+Outputs are stored in a directory called "**MCV_link_plots**" 
+
+Example outputs:
+1. Link plots of viral integration breakpoints within the human and MCPyV genomes, with each line indicating the position of distinct integration breakpoints colored by MCPyV genes that the breakpoint fell within.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/519b6a0e-4539-4796-8a11-1ced7dad69d5" alt="Description" width="650">
+</p> 
+
+2. Distribution of degree of microhomology at breakpoints of MCPyV integrations. Number of overlapped base pairs of human and MCPyV segments at each breakpoint were calculated to represent microhomology. The
+number of gapped base pairs at each breakpoint was calculated as negative score, with clean breaks denoted as zero-base pair overlapped.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/af7e6043-9689-448e-a434-9077c56d8b75" alt="Description" width="500">
+</p> 
+
+
+# Generate MCPV gene model plots
+Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Supplementary Figure S4).
+
+Usage :
+
+    ./MCPV_geneModel.sh -w <workdir> -g <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -o <path_to_output_dir> -f <data/ideogram_hg38_data.txt> -s <sample1> <sample2> ...
+
+Note: The "ideogram_hg38_data.txt" file is available in data/ideogram_hg38_data.txt folder.
+
+Outputs are stored in a directory called "**geneModel_plots**"
+
+Example output :
+Representative MCPyV integration events in a tumor.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/1837182a-8d7b-467f-8752-94f7547ac4b4" alt="Description" width="700">
+</p> 
 
 
 
