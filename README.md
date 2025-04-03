@@ -44,7 +44,7 @@ This is required for proper execution of the pipelines.
             conda activate MCPyViewer_toolkit
 
  # Generate MCPV link plots 
-Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of microhomology degree at MCPyV integration breakpoints (as shown in Figure 3A,B).
+Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
 Usage:
 
