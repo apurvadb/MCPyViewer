@@ -43,6 +43,8 @@ This is required for proper execution of the pipelines.
 
             conda activate MCPyViewer_toolkit
 
+All available pipelines for this toolkit are located in the "**scripts/**" folder. 
+
  # <h3>Generate MCPyV link plots</h3>
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
