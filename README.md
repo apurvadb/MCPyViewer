@@ -1,5 +1,5 @@
 # MCPyViewer 
-This repository contains tools for visualizing contigs at viral integration sites using the results from searcHPV. The provided tools enable clear and informative representation of integration events, aiding in the interpretation of sequencing data.
+This repository contains tools for visualizing assembled contigs at viral-host integration sites using the results from searcHPV. SearcHPV was originally developed to assemble contigs around HPV-host integration sites [reference Pinatti paper at bottom of page] and later expanded to facilitate detection and contig assembly of multiple viruses that integrate into the human genome, including Merkel Cell Polyoma Virus (MCPyV) [MCPyViewer manuscript]. The provided tools enable clear and informative representation of integration events, aiding in the interpretation of sequencing data.
 
 If you utilize MCPyViewer in your analysis, please acknowledge our work by citing the following manuscript: 
 
