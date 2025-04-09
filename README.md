@@ -88,7 +88,7 @@ Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Sup
 
 Usage :
 
-    ./MCPV_geneModel.sh -w <workdir> -g <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -o <path_to_output_dir> -f <ideogram_hg38_file> -s <sample1> <sample2> ...
+    ./MCPV_geneModel.sh -w <workdir> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
 
 Note: 
 The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder.
@@ -113,9 +113,11 @@ Example :
 #SBATCH --error=geneModel.err
 
 conda activate MCPyViewer_toolkit
-./MCPV_geneModel.sh -w <workdir> -g <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -o <path_to_output_dir> -f <ideogram_hg38_file> -s <sample1> <sample2> ...    
+./MCPV_geneModel.sh -w <workdir> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
 
 ```
+
+If you encounter an "Ensembl website unresponsive" message, please rerun the pipeline. This issue may arise due to temporary connectivity problems with the Ensembl website.
 
 Outputs are stored in a directory called "**MCPyV_geneModel_plots**"
 
