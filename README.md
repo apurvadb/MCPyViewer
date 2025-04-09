@@ -93,6 +93,30 @@ Usage :
 Note: 
 The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder.
 
+Please also note that this section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
+
+Example :
+
+```
+#!/bin/bash
+#SBATCH --job-name=geneModel
+#SBATCH --mail-user=xxx@xxx.edu
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --cpus-per-task=1
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem=40gb
+#SBATCH --time=100:00:00
+#SBATCH --account=XXXXX
+#SBATCH --partition=standard
+#SBATCH --output=geneModel.log
+#SBATCH --error=geneModel.err
+
+conda activate MCPyViewer_toolkit
+./MCPV_geneModel.sh -w <workdir> -g <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -o <path_to_output_dir> -f <ideogram_hg38_file> -s <sample1> <sample2> ...    
+
+```
+
 Outputs are stored in a directory called "**MCPyV_geneModel_plots**"
 
 Example output :
