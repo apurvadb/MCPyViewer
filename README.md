@@ -1,5 +1,5 @@
 # MCPyViewer 
-This repository contains tools for visualizing assembled contigs at viral-host integration sites using the results from searcHPV. SearcHPV was originally developed to assemble contigs around HPV-host integration sites [ref-1] and later expanded to facilitate detection and contig assembly of multiple viruses that integrate into the human genome, including Merkel Cell Polyoma Virus (MCPyV) [ref-2]. The provided tools enable clear and informative representation of integration events, aiding in the interpretation of sequencing data.
+This repository contains tools for visualizing assembled contigs at viral-host integration sites using the results from searcHPV. SearcHPV was originally developed to assemble contigs around HPV-host integration sites [1] and later expanded to facilitate detection and contig assembly of multiple viruses that integrate into the human genome, including Merkel Cell Polyoma Virus (MCPyV) [2]. The provided tools enable clear and informative representation of integration events, aiding in the interpretation of sequencing data.
 
 If you utilize MCPyViewer in your analysis, please acknowledge our work by citing the following manuscript: 
 
@@ -104,7 +104,7 @@ Representative MCPyV integration events in a tumor.
 
 # References 
 
-[ref-1] : Pinatti, Lisa M et al. “SearcHPV: A novel approach to identify and assemble human papillomavirus-host genomic integration events in cancer.” Cancer vol. 127,19 (2021): 3531-3540. doi:10.1002/cncr.33691
-          https://pubmed.ncbi.nlm.nih.gov/34160069/ 
+[1]: Pinatti, Lisa M et al. “SearcHPV: A novel approach to identify and assemble human papillomavirus-host genomic integration events in cancer.” Cancer vol. 127,19 (2021): 3531-3540. doi:10.1002/cncr.33691
+     https://pubmed.ncbi.nlm.nih.gov/34160069/ 
         
-[ref-2] : Genomic Signatures of Poor Prognosis in Merkel Cell Carcinoma: A Single-Institution Prospective Study
+[2]: Genomic Signatures of Poor Prognosis in Merkel Cell Carcinoma: A Single-Institution Prospective Study
