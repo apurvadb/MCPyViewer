@@ -20,6 +20,7 @@ Please ensure that the resulting files are stored in the following folder struct
     ```
     /searcHPV_results/Sample_{your_sample_name}/
     ```
+
 This is required for proper execution of the pipelines. 
 
 ## Getting started
