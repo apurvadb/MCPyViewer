@@ -100,7 +100,7 @@ If you have not already indexed your merged Human+MCPV reference, please do so b
 ref = '[path_of_your_reference_file]'
 bwa index {ref}
 samtools faidx {ref}
-picard CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
+java -jar $PICARDLIB/picard.jar CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
 ```
 We are utilizing the MCPyV reference from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2/. An example reference file available for use can be found at data/hg_mcv.fa.
 
