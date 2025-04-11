@@ -1,0 +1,4 @@
+#!/bin/bash
+
+    pear     -j 1     -y 10G     -f searcHPV_results/Sample_ERR4425693/assemble//6.20569311/supportiveReads//6.20569311.informativeReads.1.fq     -r searcHPV_results/Sample_ERR4425693/assemble//6.20569311/supportiveReads//6.20569311.informativeReads.2.fq     -o searcHPV_results/Sample_ERR4425693/assemble//6.20569311/pearOutput//6.20569311
+    pear     -j 1     -y 10G     -f searcHPV_results/Sample_ERR4425693/assemble//6.20635172/supportiveReads//6.20635172.informativeReads.1.fq     -r searcHPV_results/Sample_ERR4425693/assemble//6.20635172/supportiveReads//6.20635172.informativeReads.2.fq     -o searcHPV_results/Sample_ERR4425693/assemble//6.20635172/pearOutput//6.20635172

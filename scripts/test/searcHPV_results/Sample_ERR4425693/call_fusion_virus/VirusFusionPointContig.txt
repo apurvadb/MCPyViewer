@@ -1,0 +1,5 @@
+contigName	genomeInsertionChromosome	genomeInsertionPoint	hpvInsertionPoint	SiteConfidence	ContigConfidence
+6.20635172.Contig1	6	20635172	 1508	Poly(dn) in Contig	Poly(dn) in Contig
+
+6.20569311.Contig1	6	20569311	 3515	High Confidence Site	High Confidence Contig
+

@@ -1,0 +1,6 @@
+
+samtools sort -@ 1 -n /gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.bam -o /gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.sortbyQ.bam
+picard MarkDuplicates I=/gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.sortbyQ.bam O=/gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.mkdup.bam M=/gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.mkdup.txt TAGGING_POLICY=All ASSUME_SORT_ORDER=queryname
+samtools sort -@ 1 /gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.mkdup.bam -o /gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.mkdup.sort.bam
+samtools index -@ 1 /gpfs/accounts/chadbren_root/chadbren/apurvadb/MCPV_searcHPV/searcHPV_results/Sample_ERR4425693/alignment/alignment.RG.indelre.mkdup.sort.bam
+echo 'indel alignment done'

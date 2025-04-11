@@ -1,0 +1,849 @@
+No file of quality values (.qual) is found
+No file of constraints (.con) is found.
+The number of similar pairs of reads processed: 10001
+The amount of space requested : 15342082
+The number of similar pairs of reads processed: 20002
+The amount of space requested : 16221730
+The number of similar pairs of reads processed: 30003
+The amount of space requested : 17101730
+Number of overlaps saved: 39698
+ComputeOverlap done
+IdentifyChimeras done
+Overlap ERR4425693.846058+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 108
+Overlap ERR4425693.1125221+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 108
+Overlap ERR4425693.816127+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 96
+Overlap ERR4425693.1874724+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.537903+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 125
+Overlap ERR4425693.778131+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 92
+Overlap ERR4425693.127015+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.54240+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 80
+Overlap ERR4425693.45302+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 28  upper right 0  middle 111
+Overlap ERR4425693.29114+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 77
+Overlap ERR4425693.405740+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 125
+Overlap ERR4425693.386742+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 125
+Overlap ERR4425693.928496+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 84
+Overlap ERR4425693.538147+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 92
+Overlap ERR4425693.36448+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 102
+Overlap ERR4425693.50802+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 92
+Overlap ERR4425693.826454+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.240104+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.1030995- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 88
+Overlap ERR4425693.842261+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 36  upper right 0  middle 117
+Overlap ERR4425693.42649+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 123
+Overlap ERR4425693.532788+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 126
+Overlap ERR4425693.127786+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.292151+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 34  upper right 0  middle 108
+Overlap ERR4425693.15899+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 123
+Overlap ERR4425693.198287+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 97
+Overlap ERR4425693.1760+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 123
+Overlap ERR4425693.290863+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 96
+Overlap ERR4425693.702688+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 126
+Overlap ERR4425693.390263+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 105
+Overlap ERR4425693.376105+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 110
+Overlap ERR4425693.1350063+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 111
+Overlap ERR4425693.124473+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.105984+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.671853+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 94
+Overlap ERR4425693.764453+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 34  upper right 0  middle 119
+Overlap ERR4425693.1292408+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 30  upper right 0  middle 79
+Overlap ERR4425693.654379- and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 30  upper right 0  middle 117
+Overlap ERR4425693.1558978+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.98657+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 121
+Overlap ERR4425693.497808+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 81
+Overlap ERR4425693.1410725- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 100
+Overlap ERR4425693.871608+ and ERR4425693.1421391+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.606138+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.221422+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.70256+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1329099+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.157032+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.525995+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.30019+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.105669+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.1395022+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.553996+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.139457+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.230489+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.40577+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.76330+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.2063492+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.246806+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.203527+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1732712+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.295621+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1507809+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.129591+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.742883+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.19480+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.12845+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.752422+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.222554+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.695822+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.451+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.397248+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.377490+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.367324+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.47412+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.33104+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.565882+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.145592+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.521160+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1065112+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.358895+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1445694+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.608768+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1850508+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.95903+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.115876+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.183748+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.395945+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1973200+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.49877+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1887663+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1689847+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1651958+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1013075+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.258309+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.784579+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.668476+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.104613+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.337466+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 59
+Overlap ERR4425693.871608+ and ERR4425693.1263663+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.115180+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.113118+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.93919+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.93940+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.285444+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.37343+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.958006+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.135563+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.79458+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.883201+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.175399+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.824197+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.446936+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1678966+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.487661+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.348747+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1077335+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.504694+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1967051+  C  lengths of diffs and sims: upper left 1  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.7238+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.76348+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.901203+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.10820+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.112563+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.591925+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.347652+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.303238+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.38689+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.9266+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.685951+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1719625+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.223164+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.292044+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1761202+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.144245+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.147769+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.203266+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.803042+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.708683+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.376618+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.253929+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1554092+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1921020+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.41460+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.1851801+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.21574+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.127709+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.85400+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1345350+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.73744+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.377454+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.721184+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.659653+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.270333+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 59
+Overlap ERR4425693.871608+ and ERR4425693.1306951+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.857745+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1510530+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.591449+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.204291+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.1832385+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.48774+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.153108+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1117196+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.595614+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.69747+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.347510+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.692877+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.84880+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.354973+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.174936+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.981023+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.761066+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1902510+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1995503+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.732637+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.868981+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.207899+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.386617+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.92520+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1294423+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.23174+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.235305+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.241197+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.603650+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.140226+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.235991+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.395812+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.736775+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.359799+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.79468+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.2011158+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.6665+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.122139+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.290622+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1556559+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1211136+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.826518+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 59
+Overlap ERR4425693.871608+ and ERR4425693.1912171+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.643102+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.567885+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.449263+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.1474639+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.93935+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.619371+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1809076+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.73376+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.690705+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.65789+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.102439+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.374295+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.133237+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.309039+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.274130+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.337647+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.839808+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1375032+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1346658+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.484997+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.60384+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.67348+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.655998+  C  lengths of diffs and sims: upper left 0  upper right 27  middle 57
+Overlap ERR4425693.871608+ and ERR4425693.113288+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.360144+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.15312+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.13204+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 60
+Overlap ERR4425693.871608+ and ERR4425693.131978+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.28130+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.157399+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.839281+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.29671+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.405226+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1599+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.927060+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.461820+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.90322+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.754023+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.109091+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.209753+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1331461+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.941663+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.642486+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608- and ERR4425693.37067+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.593901+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.276911+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.258960+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.876466+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.411725+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1624796+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1102124+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.984924+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.401807+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.41448+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.938496+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.911810+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1651345+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.239988+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1025623+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.175074+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1712089+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1080635+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.563639+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608- and ERR4425693.1816867+  C  lengths of diffs and sims: upper left 22  upper right 0  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1410725-  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.497808+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.98657+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1558978+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.160186+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.654379-  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.345414+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1343357+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1518271+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1292408+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.764453+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.671853+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.144448+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.105984+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.124473+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.168981+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 59
+Overlap ERR4425693.871608+ and ERR4425693.1350063+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.376105+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1805923+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.727363-  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.390263+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.702688+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1582450+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.290863+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1760+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.198287+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.176430+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 61
+Overlap ERR4425693.871608+ and ERR4425693.15899+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.292151+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.127786+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1776607+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.532788+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.42649+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.842261+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1030995-  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.240104+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.826454+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.50802+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.36448+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.538147+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.928496+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.386742+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.22507+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.405740+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.29114+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.45302+  P  lengths of diffs and sims: upper left 0  upper right 22  middle 59
+Overlap ERR4425693.871608+ and ERR4425693.54240+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.127015+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1204776+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.778131+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.537903+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1874724+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.816127+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.1125221+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.871608+ and ERR4425693.846058+  C  lengths of diffs and sims: upper left 0  upper right 22  middle 62
+Overlap ERR4425693.941663+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 123
+Overlap ERR4425693.1816867- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 72
+Overlap ERR4425693.209753+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 103
+Overlap ERR4425693.754023+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.461820+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 32  upper right 0  middle 98
+Overlap ERR4425693.563639- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 75
+Overlap ERR4425693.927060+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 97
+Overlap ERR4425693.1599+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 35  upper right 0  middle 111
+Overlap ERR4425693.405226+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 111
+Overlap ERR4425693.29671+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 115
+Overlap ERR4425693.839281+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 94
+Overlap ERR4425693.1080635- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 93
+Overlap ERR4425693.157399+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 122
+Overlap ERR4425693.28130+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 115
+Overlap ERR4425693.131978+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 117
+Overlap ERR4425693.13204+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 29  upper right 0  middle 96
+Overlap ERR4425693.15312+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 101
+Overlap ERR4425693.360144+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 109
+Overlap ERR4425693.655998+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 127
+Overlap ERR4425693.67348+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 123
+Overlap ERR4425693.60384+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 126
+Overlap ERR4425693.1375032+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 91
+Overlap ERR4425693.274130+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 79
+Overlap ERR4425693.309039+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 100
+Overlap ERR4425693.1712089- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.374295+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 38  upper right 0  middle 109
+Overlap ERR4425693.102439+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 35  upper right 0  middle 114
+Overlap ERR4425693.65789+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 33  upper right 0  middle 114
+Overlap ERR4425693.73376+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 76
+Overlap ERR4425693.175074- and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 36  upper right 0  middle 92
+Overlap ERR4425693.1025623- and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 36  upper right 0  middle 110
+Overlap ERR4425693.93935+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 86
+Overlap ERR4425693.449263+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 30  upper right 0  middle 91
+Overlap ERR4425693.239988- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 87
+Overlap ERR4425693.567885+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 111
+Overlap ERR4425693.643102+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 85
+Overlap ERR4425693.826518+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 28  upper right 0  middle 115
+Overlap ERR4425693.122139+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.6665+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 102
+Overlap ERR4425693.2011158+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 80
+Overlap ERR4425693.359799+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 85
+Overlap ERR4425693.736775+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 83
+Overlap ERR4425693.395812+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 86
+Overlap ERR4425693.235991+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 33  upper right 0  middle 102
+Overlap ERR4425693.241197+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 29  upper right 0  middle 118
+Overlap ERR4425693.235305+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 86
+Overlap ERR4425693.23174+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 83
+Overlap ERR4425693.1294423+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 102
+Overlap ERR4425693.92520+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 33  upper right 0  middle 92
+Overlap ERR4425693.386617+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 98
+Overlap ERR4425693.911810- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.868981+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 125
+Overlap ERR4425693.1995503+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 33  upper right 0  middle 111
+Overlap ERR4425693.1902510+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 93
+Overlap ERR4425693.761066+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 120
+Overlap ERR4425693.981023+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 89
+Overlap ERR4425693.354973+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 99
+Overlap ERR4425693.69747+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 113
+Overlap ERR4425693.48774+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 32  upper right 0  middle 115
+Overlap ERR4425693.938496- and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 97
+Overlap ERR4425693.1832385+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 36  upper right 0  middle 102
+Overlap ERR4425693.857745+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 34  upper right 0  middle 114
+Overlap ERR4425693.659653+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 95
+Overlap ERR4425693.377454+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 101
+Overlap ERR4425693.73744+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.1654541+ and ERR4425693.1421391+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.606138+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.221422+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1329099+  P  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.157032+  P  lengths of diffs and sims: upper left 33  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.553996+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.246806+  P  lengths of diffs and sims: upper left 33  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1732712+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.742883+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.12845+  P  lengths of diffs and sims: upper left 35  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.752422+  P  lengths of diffs and sims: upper left 37  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.695822+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.397248+  P  lengths of diffs and sims: upper left 30  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.377490+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.33104+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.565882+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1065112+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.358895+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1445694+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.608768+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1850508+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1689847+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1651958+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1013075+  P  lengths of diffs and sims: upper left 33  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.258309+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.958006+  P  lengths of diffs and sims: upper left 33  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.79458+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.883201+  P  lengths of diffs and sims: upper left 37  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.348747+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1077335+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1967051+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.76348+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.901203+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.112563+  P  lengths of diffs and sims: upper left 38  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.38689+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.9266+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1719625+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.292044+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1761202+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.147769+  P  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1921020+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.127709+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541- and ERR4425693.37067+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 120
+Overlap ERR4425693.1654541- and ERR4425693.593901+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 68
+Overlap ERR4425693.1654541- and ERR4425693.276911+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 84
+Overlap ERR4425693.1654541- and ERR4425693.258960+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 94
+Overlap ERR4425693.1654541- and ERR4425693.876466+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 110
+Overlap ERR4425693.1654541- and ERR4425693.1624796+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 101
+Overlap ERR4425693.1654541- and ERR4425693.1102124+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 78
+Overlap ERR4425693.1654541- and ERR4425693.984924+  P  lengths of diffs and sims: upper left 0  upper right 39  middle 82
+Overlap ERR4425693.1654541+ and ERR4425693.1345350+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.41448-  P  lengths of diffs and sims: upper left 35  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.721184+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.270333+  P  lengths of diffs and sims: upper left 28  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1306951+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1510530+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.591449+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.204291+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.153108+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1117196+  P  lengths of diffs and sims: upper left 36  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.595614+  P  lengths of diffs and sims: upper left 38  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.347510+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.692877+  P  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.84880+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.174936+  P  lengths of diffs and sims: upper left 33  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.732637+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.207899+  P  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.603650+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.140226+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.79468+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1651345-  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.290622+  P  lengths of diffs and sims: upper left 36  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1556559+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1211136+  P  lengths of diffs and sims: upper left 29  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1912171+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1474639+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.619371+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1809076+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.690705+  P  lengths of diffs and sims: upper left 30  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.133237+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.337647+  P  lengths of diffs and sims: upper left 30  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.839808+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1346658+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.484997+  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.113288+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.90322+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.109091+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1331461+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.642486+  P  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.160186+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.345414+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1343357+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1518271+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.144448+  P  lengths of diffs and sims: upper left 37  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.168981+  P  lengths of diffs and sims: upper left 28  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1805923+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.727363-  P  lengths of diffs and sims: upper left 34  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1582450+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.176430+  P  lengths of diffs and sims: upper left 30  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1776607+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.22507+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 128
+Overlap ERR4425693.1654541+ and ERR4425693.1204776+  P  lengths of diffs and sims: upper left 36  upper right 0  middle 128
+Overlap ERR4425693.85400+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 107
+Overlap ERR4425693.21574+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 107
+Overlap ERR4425693.1851801+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 32  upper right 0  middle 128
+Overlap ERR4425693.41460+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 29  upper right 0  middle 92
+Overlap ERR4425693.1554092+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 116
+Overlap ERR4425693.253929+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 103
+Overlap ERR4425693.376618+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 96
+Overlap ERR4425693.708683+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 111
+Overlap ERR4425693.803042+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 38  upper right 0  middle 120
+Overlap ERR4425693.203266+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 112
+Overlap ERR4425693.144245+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 89
+Overlap ERR4425693.401807+ and ERR4425693.1654541-  C  lengths of diffs and sims: upper left 0  upper right 39  middle 115
+Overlap ERR4425693.223164+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 31  upper right 0  middle 98
+Overlap ERR4425693.685951+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 108
+Overlap ERR4425693.303238+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 35  upper right 0  middle 125
+Overlap ERR4425693.347652+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 112
+Overlap ERR4425693.591925+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 122
+Overlap ERR4425693.10820+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 102
+Overlap ERR4425693.7238+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 101
+Overlap ERR4425693.504694+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 89
+Overlap ERR4425693.487661+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 83
+Overlap ERR4425693.1678966+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 98
+Overlap ERR4425693.446936+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 108
+Overlap ERR4425693.824197+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 125
+Overlap ERR4425693.175399+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.135563+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 96
+Overlap ERR4425693.37343+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 106
+Overlap ERR4425693.285444+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 89
+Overlap ERR4425693.93940+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 116
+Overlap ERR4425693.93919+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 29  upper right 0  middle 89
+Overlap ERR4425693.113118+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 88
+Overlap ERR4425693.115180+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 77
+Overlap ERR4425693.1263663+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 85
+Overlap ERR4425693.337466+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 28  upper right 0  middle 118
+Overlap ERR4425693.104613+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 35  upper right 0  middle 107
+Overlap ERR4425693.668476+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 35  upper right 0  middle 99
+Overlap ERR4425693.784579+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 101
+Overlap ERR4425693.1887663+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 113
+Overlap ERR4425693.49877+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 88
+Overlap ERR4425693.411725+ and ERR4425693.1654541-  C  lengths of diffs and sims: upper left 0  upper right 37  middle 92
+Overlap ERR4425693.1973200+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 89
+Overlap ERR4425693.395945+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 123
+Overlap ERR4425693.183748+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 103
+Overlap ERR4425693.115876+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 119
+Overlap ERR4425693.95903+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 37  upper right 0  middle 125
+Overlap ERR4425693.521160+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 86
+Overlap ERR4425693.145592+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 36  upper right 0  middle 105
+Overlap ERR4425693.47412+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 29  upper right 0  middle 109
+Overlap ERR4425693.367324+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 106
+Overlap ERR4425693.451+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 88
+Overlap ERR4425693.222554+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.19480+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 111
+Overlap ERR4425693.129591+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 100
+Overlap ERR4425693.1507809+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 117
+Overlap ERR4425693.295621+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 39  upper right 0  middle 113
+Overlap ERR4425693.203527+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.2063492+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 104
+Overlap ERR4425693.76330+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 82
+Overlap ERR4425693.40577+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 84
+Overlap ERR4425693.230489+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 33  upper right 0  middle 88
+Overlap ERR4425693.139457+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 38  upper right 0  middle 128
+Overlap ERR4425693.1395022+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 85
+Overlap ERR4425693.105669+ and ERR4425693.1654541+  C  lengths of diffs and sims: upper left 30  upper right 0  middle 115
+Overlap ERR4425693.30019+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 114
+Overlap ERR4425693.525995+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 84
+Overlap ERR4425693.561739+ and ERR4425693.1654541-  P  lengths of diffs and sims: upper left 0  upper right 28  middle 128
+Overlap ERR4425693.561739+ and ERR4425693.871608-  P  lengths of diffs and sims: upper left 22  upper right 0  middle 59
+Overlap ERR4425693.70256+ and ERR4425693.1654541+  P  lengths of diffs and sims: upper left 39  upper right 0  middle 111
+Number of overlaps removed: 552
+RemovePoorOverlaps done
+ASSEM done
+ComputDistForContigs done
+PresentLayout done
+Clip ERR4425693.754023 left clip: 2, right clip: 278,  length: 278,  right size 0
+Clip ERR4425693.6665 left clip: 1, right clip: 150,  length: 150,  right size 0
+Clip ERR4425693.337611 left clip: 1, right clip: 150,  length: 150,  right size 0
+Clip ERR4425693.36448 left clip: 1, right clip: 151,  length: 151,  right size 0
+Clip ERR4425693.1512867 left clip: 1, right clip: 151,  length: 151,  right size 0
+Clip ERR4425693.1263663 left clip: 1, right clip: 201,  length: 201,  right size 0
+Clip ERR4425693.354973 left clip: 1, right clip: 203,  length: 203,  right size 0
+Clip ERR4425693.1294423 left clip: 1, right clip: 205,  length: 205,  right size 0
+Clip ERR4425693.981023 left clip: 1, right clip: 223,  length: 223,  right size 0
+Clip ERR4425693.28130 left clip: 1, right clip: 230,  length: 230,  right size 0
+Clip ERR4425693.405740 left clip: 1, right clip: 227,  length: 227,  right size 0
+Clip ERR4425693.1292408 left clip: 1, right clip: 110,  length: 110,  right size 0
+Clip ERR4425693.93919 left clip: 1, right clip: 119,  length: 119,  right size 0
+Clip ERR4425693.40577 left clip: 1, right clip: 125,  length: 125,  right size 0
+Clip ERR4425693.13204 left clip: 1, right clip: 126,  length: 126,  right size 0
+Clip ERR4425693.643102 left clip: 1, right clip: 126,  length: 126,  right size 0
+Clip ERR4425693.175074 left clip: 1, right clip: 129,  length: 129,  right size 0
+Clip ERR4425693.49877 left clip: 1, right clip: 129,  length: 129,  right size 0
+Clip ERR4425693.223164 left clip: 1, right clip: 130,  length: 130,  right size 0
+Clip ERR4425693.928496 left clip: 1, right clip: 130,  length: 130,  right size 0
+Clip ERR4425693.461820 left clip: 1, right clip: 131,  length: 131,  right size 0
+Clip ERR4425693.276911 left clip: 1, right clip: 131,  length: 131,  right size 0
+Clip ERR4425693.395812 left clip: 1, right clip: 134,  length: 134,  right size 0
+Clip ERR4425693.198287 left clip: 1, right clip: 135,  length: 135,  right size 0
+Clip ERR4425693.29114 left clip: 1, right clip: 135,  length: 135,  right size 0
+Clip ERR4425693.50802 left clip: 1, right clip: 135,  length: 135,  right size 0
+Clip ERR4425693.671853 left clip: 1, right clip: 136,  length: 136,  right size 0
+Clip ERR4425693.54240 left clip: 1, right clip: 136,  length: 136,  right size 0
+Clip ERR4425693.235991 left clip: 1, right clip: 136,  length: 136,  right size 0
+Clip ERR4425693.23174 left clip: 1, right clip: 138,  length: 138,  right size 0
+Clip ERR4425693.1832385 left clip: 1, right clip: 139,  length: 139,  right size 0
+Clip ERR4425693.45302 left clip: 1, right clip: 140,  length: 140,  right size 0
+Clip ERR4425693.292151 left clip: 1, right clip: 143,  length: 143,  right size 0
+Clip ERR4425693.1410725 left clip: 1, right clip: 143,  length: 143,  right size 0
+Clip ERR4425693.1995503 left clip: 1, right clip: 145,  length: 145,  right size 0
+Clip ERR4425693.1599 left clip: 1, right clip: 147,  length: 147,  right size 0
+Clip ERR4425693.37343 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.654379 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.65789 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.93935 left clip: 1, right clip: 149,  length: 149,  right size 0
+Clip ERR4425693.85400 left clip: 1, right clip: 149,  length: 149,  right size 0
+Clip ERR4425693.857745 left clip: 1, right clip: 149,  length: 149,  right size 0
+Clip ERR4425693.405226 left clip: 1, right clip: 149,  length: 149,  right size 0
+Clip ERR4425693.102439 left clip: 1, right clip: 150,  length: 150,  right size 0
+Clip ERR4425693.144245 left clip: 1, right clip: 151,  length: 151,  right size 0
+Clip ERR4425693.377454 left clip: 1, right clip: 155,  length: 155,  right size 0
+Clip ERR4425693.846058 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.372508 left clip: 58, right clip: 138,  length: 138,  right size 0
+Clip ERR4425693.449263 left clip: 1, right clip: 122,  length: 122,  right size 0
+Clip ERR4425693.41460 left clip: 1, right clip: 122,  length: 122,  right size 0
+Clip ERR4425693.230489 left clip: 1, right clip: 122,  length: 122,  right size 0
+Clip ERR4425693.76330 left clip: 1, right clip: 123,  length: 123,  right size 0
+Clip ERR4425693.984924 left clip: 1, right clip: 124,  length: 124,  right size 0
+Clip ERR4425693.92520 left clip: 1, right clip: 126,  length: 126,  right size 0
+Clip ERR4425693.411725 left clip: 1, right clip: 130,  length: 130,  right size 0
+Clip ERR4425693.451 left clip: 1, right clip: 133,  length: 133,  right size 0
+Clip ERR4425693.668476 left clip: 1, right clip: 135,  length: 135,  right size 0
+Clip ERR4425693.10820 left clip: 1, right clip: 140,  length: 140,  right size 0
+Clip ERR4425693.145592 left clip: 1, right clip: 142,  length: 142,  right size 0
+Clip ERR4425693.7238 left clip: 1, right clip: 143,  length: 143,  right size 0
+Clip ERR4425693.1624796 left clip: 1, right clip: 144,  length: 144,  right size 0
+Clip ERR4425693.842261 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.359799 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.816127 left clip: 1, right clip: 155,  length: 155,  right size 0
+Clip ERR4425693.73376 left clip: 1, right clip: 135,  length: 135,  right size 0
+Clip ERR4425693.124473 left clip: 1, right clip: 156,  length: 156,  right size 0
+Clip ERR4425693.69747 left clip: 1, right clip: 157,  length: 157,  right size 0
+Clip ERR4425693.203527 left clip: 1, right clip: 157,  length: 157,  right size 0
+Clip ERR4425693.736775 left clip: 1, right clip: 158,  length: 158,  right size 0
+Clip ERR4425693.73744 left clip: 1, right clip: 158,  length: 158,  right size 0
+Clip ERR4425693.567885 left clip: 1, right clip: 158,  length: 158,  right size 0
+Clip ERR4425693.19480 left clip: 1, right clip: 162,  length: 162,  right size 0
+Clip ERR4425693.593901 left clip: 1, right clip: 159,  length: 159,  right size 0
+Clip ERR4425693.67348 left clip: 1, right clip: 161,  length: 161,  right size 0
+Clip ERR4425693.1902510 left clip: 1, right clip: 162,  length: 162,  right size 0
+Clip ERR4425693.386617 left clip: 1, right clip: 162,  length: 162,  right size 0
+Clip ERR4425693.487661 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.131978 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.1973200 left clip: 1, right clip: 165,  length: 165,  right size 0
+Clip ERR4425693.1125221 left clip: 1, right clip: 166,  length: 166,  right size 0
+Clip ERR4425693.563639 left clip: 1, right clip: 131,  length: 131,  right size 0
+Clip ERR4425693.239988 left clip: 1, right clip: 134,  length: 134,  right size 0
+Clip ERR4425693.784579 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.135563 left clip: 1, right clip: 146,  length: 146,  right size 0
+Clip ERR4425693.258960 left clip: 1, right clip: 146,  length: 146,  right size 0
+Clip ERR4425693.129591 left clip: 1, right clip: 152,  length: 152,  right size 0
+Clip ERR4425693.183748 left clip: 1, right clip: 153,  length: 153,  right size 0
+Clip ERR4425693.15312 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.253929 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.367324 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.21574 left clip: 1, right clip: 156,  length: 156,  right size 0
+Clip ERR4425693.15899 left clip: 1, right clip: 167,  length: 167,  right size 0
+Clip ERR4425693.525995 left clip: 1, right clip: 167,  length: 167,  right size 0
+Clip ERR4425693.386742 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.127015 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.42649 left clip: 1, right clip: 169,  length: 169,  right size 0
+Clip ERR4425693.29671 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.274130 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.504694 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.1030995 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.1760 left clip: 1, right clip: 172,  length: 172,  right size 0
+Clip ERR4425693.826454 left clip: 1, right clip: 177,  length: 177,  right size 0
+Clip ERR4425693.1080635 left clip: 1, right clip: 175,  length: 175,  right size 0
+Clip ERR4425693.1554092 left clip: 1, right clip: 175,  length: 175,  right size 0
+Clip ERR4425693.941663 left clip: 1, right clip: 178,  length: 178,  right size 0
+Clip ERR4425693.105984 left clip: 1, right clip: 179,  length: 179,  right size 0
+Clip ERR4425693.157399 left clip: 1, right clip: 181,  length: 181,  right size 0
+Clip ERR4425693.538147 left clip: 1, right clip: 184,  length: 184,  right size 0
+Clip ERR4425693.659653 left clip: 18, right clip: 201,  length: 201,  right size 0
+Clip ERR4425693.868981 left clip: 1, right clip: 184,  length: 184,  right size 0
+Clip ERR4425693.1395022 left clip: 1, right clip: 184,  length: 184,  right size 0
+Clip ERR4425693.911810 left clip: 1, right clip: 185,  length: 185,  right size 0
+Clip ERR4425693.113118 left clip: 1, right clip: 187,  length: 187,  right size 0
+Clip ERR4425693.824197 left clip: 1, right clip: 188,  length: 188,  right size 0
+Clip ERR4425693.591925 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.1874724 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.47412 left clip: 1, right clip: 139,  length: 139,  right size 0
+Clip ERR4425693.104613 left clip: 1, right clip: 143,  length: 143,  right size 0
+Clip ERR4425693.2011158 left clip: 1, right clip: 143,  length: 143,  right size 0
+Clip ERR4425693.1025623 left clip: 1, right clip: 147,  length: 147,  right size 0
+Clip ERR4425693.115180 left clip: 1, right clip: 147,  length: 147,  right size 0
+Clip ERR4425693.374295 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.1102124 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.521160 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.376105 left clip: 1, right clip: 152,  length: 152,  right size 0
+Clip ERR4425693.295621 left clip: 1, right clip: 153,  length: 153,  right size 0
+Clip ERR4425693.235305 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.309039 left clip: 1, right clip: 159,  length: 159,  right size 0
+Clip ERR4425693.347652 left clip: 1, right clip: 159,  length: 159,  right size 0
+Clip ERR4425693.376618 left clip: 1, right clip: 161,  length: 161,  right size 0
+Clip ERR4425693.209753 left clip: 1, right clip: 162,  length: 162,  right size 0
+Clip ERR4425693.1678966 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.876466 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.70256 left clip: 1, right clip: 165,  length: 165,  right size 0
+Clip ERR4425693.839281 left clip: 1, right clip: 166,  length: 166,  right size 0
+Clip ERR4425693.938496 left clip: 1, right clip: 166,  length: 166,  right size 0
+Clip ERR4425693.290863 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.927060 left clip: 1, right clip: 172,  length: 172,  right size 0
+Clip ERR4425693.446936 left clip: 1, right clip: 172,  length: 172,  right size 0
+Clip ERR4425693.2063492 left clip: 1, right clip: 175,  length: 175,  right size 0
+Clip ERR4425693.360144 left clip: 1, right clip: 178,  length: 178,  right size 0
+Clip ERR4425693.685951 left clip: 1, right clip: 178,  length: 178,  right size 0
+Clip ERR4425693.1887663 left clip: 1, right clip: 178,  length: 178,  right size 0
+Clip ERR4425693.203266 left clip: 1, right clip: 182,  length: 182,  right size 0
+Clip ERR4425693.708683 left clip: 1, right clip: 184,  length: 184,  right size 0
+Clip ERR4425693.1375032 left clip: 1, right clip: 193,  length: 193,  right size 0
+Clip ERR4425693.222554 left clip: 1, right clip: 195,  length: 195,  right size 0
+Clip ERR4425693.1350063 left clip: 1, right clip: 199,  length: 199,  right size 0
+Clip ERR4425693.30019 left clip: 1, right clip: 199,  length: 199,  right size 0
+Clip ERR4425693.240104 left clip: 1, right clip: 201,  length: 201,  right size 0
+Clip ERR4425693.1507809 left clip: 1, right clip: 203,  length: 203,  right size 0
+Clip ERR4425693.395945 left clip: 1, right clip: 204,  length: 204,  right size 0
+Clip ERR4425693.1558978 left clip: 1, right clip: 210,  length: 210,  right size 0
+Clip ERR4425693.655998 left clip: 1, right clip: 226,  length: 226,  right size 0
+Clip ERR4425693.1816867 left clip: 1, right clip: 112,  length: 112,  right size 0
+Clip ERR4425693.778131 left clip: 1, right clip: 132,  length: 132,  right size 0
+Clip ERR4425693.497808 left clip: 1, right clip: 138,  length: 138,  right size 0
+Clip ERR4425693.390263 left clip: 1, right clip: 145,  length: 145,  right size 0
+Clip ERR4425693.285444 left clip: 1, right clip: 146,  length: 146,  right size 0
+Clip ERR4425693.764453 left clip: 1, right clip: 154,  length: 154,  right size 0
+Clip ERR4425693.761066 left clip: 1, right clip: 158,  length: 158,  right size 0
+Clip ERR4425693.127786 left clip: 1, right clip: 159,  length: 159,  right size 0
+Clip ERR4425693.122139 left clip: 1, right clip: 160,  length: 160,  right size 0
+Clip ERR4425693.303238 left clip: 1, right clip: 161,  length: 161,  right size 0
+Clip ERR4425693.1712089 left clip: 1, right clip: 166,  length: 166,  right size 0
+Clip ERR4425693.175399 left clip: 1, right clip: 171,  length: 171,  right size 0
+Clip ERR4425693.537903 left clip: 1, right clip: 182,  length: 182,  right size 0
+Clip ERR4425693.105669 left clip: 1, right clip: 146,  length: 146,  right size 0
+Clip ERR4425693.241197 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.48774 left clip: 1, right clip: 148,  length: 148,  right size 0
+Clip ERR4425693.401807 left clip: 1, right clip: 155,  length: 155,  right size 0
+Clip ERR4425693.803042 left clip: 1, right clip: 159,  length: 159,  right size 0
+Clip ERR4425693.98657 left clip: 1, right clip: 163,  length: 163,  right size 0
+Clip ERR4425693.95903 left clip: 1, right clip: 163,  length: 163,  right size 0
+Clip ERR4425693.93940 left clip: 1, right clip: 165,  length: 165,  right size 0
+Clip ERR4425693.115876 left clip: 1, right clip: 172,  length: 172,  right size 0
+Clip ERR4425693.37067 left clip: 1, right clip: 177,  length: 177,  right size 0
+Clip ERR4425693.1556559 left clip: 1, right clip: 229,  length: 229,  right size 0
+Clip ERR4425693.532788 left clip: 1, right clip: 210,  length: 210,  right size 0
+Clip ERR4425693.60384 left clip: 1, right clip: 173,  length: 173,  right size 0
+Clip ERR4425693.702688 left clip: 1, right clip: 182,  length: 182,  right size 0
+Clip ERR4425693.90322 left clip: 1, right clip: 264,  length: 264,  right size 0
+Clip ERR4425693.826518 left clip: 1, right clip: 144,  length: 144,  right size 0
+Clip ERR4425693.337466 left clip: 1, right clip: 147,  length: 147,  right size 0
+Clip ERR4425693.1851801 left clip: 1, right clip: 161,  length: 161,  right size 0
+Clip ERR4425693.9266 left clip: 1, right clip: 163,  length: 163,  right size 0
+Clip ERR4425693.153108 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.270333 left clip: 1, right clip: 164,  length: 164,  right size 0
+Clip ERR4425693.692877 left clip: 1, right clip: 165,  length: 165,  right size 0
+Clip ERR4425693.1013075 left clip: 1, right clip: 167,  length: 167,  right size 0
+Clip ERR4425693.133237 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.290622 left clip: 1, right clip: 169,  length: 169,  right size 0
+Clip ERR4425693.1306951 left clip: 12, right clip: 182,  length: 182,  right size 0
+Clip ERR4425693.144448 left clip: 1, right clip: 171,  length: 171,  right size 0
+Clip ERR4425693.176430 left clip: 1, right clip: 172,  length: 172,  right size 0
+Clip ERR4425693.727363 left clip: 1, right clip: 173,  length: 173,  right size 0
+Clip ERR4425693.1346658 left clip: 1, right clip: 174,  length: 174,  right size 0
+Clip ERR4425693.337647 left clip: 1, right clip: 176,  length: 176,  right size 0
+Clip ERR4425693.41448 left clip: 1, right clip: 177,  length: 177,  right size 0
+Clip ERR4425693.38689 left clip: 1, right clip: 183,  length: 183,  right size 0
+Clip ERR4425693.1211136 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.109091 left clip: 1, right clip: 191,  length: 191,  right size 0
+Clip ERR4425693.690705 left clip: 1, right clip: 191,  length: 191,  right size 0
+Clip ERR4425693.484997 left clip: 1, right clip: 192,  length: 192,  right size 0
+Clip ERR4425693.642486 left clip: 1, right clip: 192,  length: 192,  right size 0
+Clip ERR4425693.113288 left clip: 1, right clip: 199,  length: 199,  right size 0
+Clip ERR4425693.595614 left clip: 1, right clip: 204,  length: 204,  right size 0
+Clip ERR4425693.603650 left clip: 1, right clip: 206,  length: 206,  right size 0
+Clip ERR4425693.1204776 left clip: 1, right clip: 207,  length: 207,  right size 0
+Clip ERR4425693.1512867 left clip: 1, right clip: 151,  length: 151,  right size 0
+Clip ERR4425693.606138 left clip: 1, right clip: 166,  length: 166,  right size 0
+Clip ERR4425693.147769 left clip: 1, right clip: 163,  length: 163,  right size 0
+Clip ERR4425693.561739 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.553996 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.157032 left clip: 1, right clip: 171,  length: 171,  right size 0
+Clip ERR4425693.174936 left clip: 1, right clip: 177,  length: 177,  right size 0
+Clip ERR4425693.1329099 left clip: 1, right clip: 185,  length: 185,  right size 0
+Clip ERR4425693.204291 left clip: 1, right clip: 188,  length: 188,  right size 0
+Clip ERR4425693.1077335 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.397248 left clip: 1, right clip: 193,  length: 193,  right size 0
+Clip ERR4425693.246806 left clip: 1, right clip: 194,  length: 194,  right size 0
+Clip ERR4425693.1850508 left clip: 1, right clip: 198,  length: 198,  right size 0
+Clip ERR4425693.12845 left clip: 1, right clip: 203,  length: 203,  right size 0
+Clip ERR4425693.168981 left clip: 1, right clip: 208,  length: 208,  right size 0
+Clip ERR4425693.337611 left clip: 1, right clip: 151,  length: 151,  right size 0
+Clip ERR4425693.1805923 left clip: 1, right clip: 209,  length: 209,  right size 0
+Clip ERR4425693.347510 left clip: 1, right clip: 209,  length: 209,  right size 0
+Clip ERR4425693.358895 left clip: 1, right clip: 212,  length: 212,  right size 0
+Clip ERR4425693.1421391 left clip: 1, right clip: 212,  length: 212,  right size 0
+Clip ERR4425693.591449 left clip: 1, right clip: 213,  length: 213,  right size 0
+Clip ERR4425693.958006 left clip: 1, right clip: 213,  length: 213,  right size 0
+Clip ERR4425693.1776607 left clip: 1, right clip: 215,  length: 215,  right size 0
+Clip ERR4425693.1967051 left clip: 1, right clip: 180,  length: 180,  right size 0
+Clip ERR4425693.292044 left clip: 1, right clip: 178,  length: 178,  right size 0
+Clip ERR4425693.1445694 left clip: 1, right clip: 182,  length: 182,  right size 0
+Clip ERR4425693.839808 left clip: 1, right clip: 181,  length: 181,  right size 0
+Clip ERR4425693.742883 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.345414 left clip: 1, right clip: 190,  length: 190,  right size 0
+Clip ERR4425693.619371 left clip: 1, right clip: 190,  length: 190,  right size 0
+Clip ERR4425693.22507 left clip: 1, right clip: 193,  length: 193,  right size 0
+Clip ERR4425693.139457 left clip: 1, right clip: 167,  length: 167,  right size 0
+Clip ERR4425693.84880 left clip: 1, right clip: 168,  length: 168,  right size 0
+Clip ERR4425693.33104 left clip: 1, right clip: 173,  length: 173,  right size 0
+Clip ERR4425693.79468 left clip: 1, right clip: 170,  length: 170,  right size 0
+Clip ERR4425693.258309 left clip: 1, right clip: 173,  length: 173,  right size 0
+Clip ERR4425693.1651958 left clip: 1, right clip: 174,  length: 174,  right size 0
+Clip ERR4425693.160186 left clip: 1, right clip: 177,  length: 177,  right size 0
+Clip ERR4425693.112563 left clip: 1, right clip: 179,  length: 179,  right size 0
+Clip ERR4425693.79458 left clip: 1, right clip: 183,  length: 183,  right size 0
+Clip ERR4425693.140226 left clip: 1, right clip: 189,  length: 189,  right size 0
+Clip ERR4425693.1474639 left clip: 1, right clip: 192,  length: 192,  right size 0
+Clip ERR4425693.732637 left clip: 1, right clip: 193,  length: 193,  right size 0
+Clip ERR4425693.752422 left clip: 1, right clip: 194,  length: 194,  right size 0
+Clip ERR4425693.608768 left clip: 1, right clip: 196,  length: 196,  right size 0
+Clip ERR4425693.1651345 left clip: 1, right clip: 201,  length: 201,  right size 0
+Clip ERR4425693.221422 left clip: 1, right clip: 201,  length: 201,  right size 0
+Clip ERR4425693.1761202 left clip: 1, right clip: 204,  length: 204,  right size 0
+Clip ERR4425693.377490 left clip: 1, right clip: 204,  length: 204,  right size 0
+Clip ERR4425693.1689847 left clip: 1, right clip: 216,  length: 216,  right size 0
+Clip ERR4425693.1518271 left clip: 1, right clip: 223,  length: 223,  right size 0
+Clip ERR4425693.1065112 left clip: 1, right clip: 188,  length: 188,  right size 0
+Clip ERR4425693.1331461 left clip: 1, right clip: 200,  length: 200,  right size 0
+Clip ERR4425693.1582450 left clip: 1, right clip: 209,  length: 209,  right size 0
+Clip ERR4425693.695822 left clip: 1, right clip: 192,  length: 192,  right size 0
+Clip ERR4425693.76348 left clip: 1, right clip: 193,  length: 193,  right size 0
+Clip ERR4425693.1345350 left clip: 1, right clip: 195,  length: 195,  right size 0
+Clip ERR4425693.127709 left clip: 1, right clip: 216,  length: 216,  right size 0
+Clip ERR4425693.1732712 left clip: 1, right clip: 223,  length: 223,  right size 0
+Clip ERR4425693.1510530 left clip: 1, right clip: 225,  length: 225,  right size 0
+Clip ERR4425693.348747 left clip: 1, right clip: 225,  length: 225,  right size 0
+Clip ERR4425693.1343357 left clip: 1, right clip: 227,  length: 227,  right size 0
+Clip ERR4425693.721184 left clip: 1, right clip: 207,  length: 207,  right size 0
+Clip ERR4425693.1921020 left clip: 1, right clip: 221,  length: 221,  right size 0
+Clip ERR4425693.1912171 left clip: 1, right clip: 229,  length: 229,  right size 0
+Clip ERR4425693.565882 left clip: 1, right clip: 229,  length: 229,  right size 0
+Clip ERR4425693.901203 left clip: 1, right clip: 241,  length: 241,  right size 0
+Clip ERR4425693.1719625 left clip: 1, right clip: 266,  length: 267,  right size 1
+Clip ERR4425693.883201 left clip: 1, right clip: 243,  length: 243,  right size 0
+Clip ERR4425693.1117196 left clip: 1, right clip: 250,  length: 250,  right size 0
+Clip ERR4425693.1809076 left clip: 1, right clip: 222,  length: 222,  right size 0
+Clip ERR4425693.207899 left clip: 1, right clip: 224,  length: 224,  right size 0
