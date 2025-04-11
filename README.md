@@ -33,11 +33,11 @@ This is required for proper execution of the pipelines.
     - Create conda environment for MCPyViewer:
 
           conda env create -f [your_path]/environment.yaml
-    This command will automatically set up all the third-party tools and packages required for MCPyViewer. The name of the environment is "MCPyViewer_toolkit".
+    This command will automatically set up all the third-party tools and packages required for MCPyViewer. The name of the environment is "MCPyViewer".
 
     You can check the packages and tools in this environment by:
 
-            conda list -n MCPyViewer_toolkit
+            conda list -n MCPyViewer
 
    You can update the environment by:
 
@@ -46,7 +46,7 @@ This is required for proper execution of the pipelines.
  3. Usage
         - Activate the conda environment
 
-            conda activate MCPyViewer_toolkit
+            conda activate MCPyViewer
 
 All available pipelines for this toolkit are located in the "**scripts/**" folder. 
 
@@ -93,7 +93,18 @@ Usage :
 Note: 
 The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder.
 
-Please also note that this section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
+If you have not already indexed your merged Human+MCPV reference, please do so by following these commands:
+
+```
+#activate MCPyViewer conda environment first to make sure you are using the correct versions of tools
+ref = '[path_of_your_reference_file]'
+bwa index {ref}
+samtools faidx {ref}
+picard CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
+```
+We are utilizing the MCPyV reference from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2/. An example reference file available for use can be found at data/hg_mcv.fa.
+
+Please note that this entire section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
 
 Example :
 
