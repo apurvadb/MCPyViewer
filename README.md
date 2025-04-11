@@ -125,7 +125,7 @@ Example :
 #SBATCH --output=geneModel.log
 #SBATCH --error=geneModel.err
 
-conda activate MCPyViewer_toolkit
+conda activate MCPyViewer
 ./MCPV_geneModel.sh -w <workdir> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
 
 ```
@@ -142,9 +142,29 @@ Representative MCPyV integration events in a tumor.
     <img src="Images/geneModel.png" alt="Description" width="800">
 </p> 
 
+## <h4>Test run on publicly available data [3].</h4> 
+Available here: https://www.ncbi.nlm.nih.gov/sra/ERX4366251
+
+Running from the "scripts/" folder
+
+Usage :
+
+```
+1. ./MCPV_link_plot.sh -w test/ -i test/test_sample.txt -o test/<your_output_dir>
+
+2. ./MCPV_geneModel.sh -w test/ -t <path to>/data/Homo_sapiens.GRCh38.105.transcript.gtf -e <path to>/data/Homo_sapiens.GRCh38.105.exon.gtf -r <path to>/data/hg_mcv.fa -d test/{your_output_dir} -f <path to>/data/ideogram_hg38_data.txt ERR4425693
+
+```
+
+test_sample.txt, MCPV integration analysis results are located in the test folder under "searcHPV_results/Sample_ERR4425693". 
+Outputs will be available in "MCPyV_link_plots" and "MCPyV_geneModel_plots" folders. 
+
 # References 
 
 [1]: Pinatti, Lisa M et al. “SearcHPV: A novel approach to identify and assemble human papillomavirus-host genomic integration events in cancer.” Cancer vol. 127,19 (2021): 3531-3540. doi:10.1002/cncr.33691
-     https://pubmed.ncbi.nlm.nih.gov/34160069/ 
-        
+     https://pubmed.ncbi.nlm.nih.gov/34160069/        
+
 [2]: Genomic Signatures of Poor Prognosis in Merkel Cell Carcinoma: A Single-Institution Prospective Study
+
+[3]: Czech-Sioli, Manja et al. “High-resolution analysis of Merkel Cell Polyomavirus in Merkel Cell Carcinoma reveals distinct integration patterns and suggests NHEJ and MMBIR as underlying mechanisms.” PLoS pathogens vol. 16,8 e1008562. 24 Aug. 2020, 
+     doi:10.1371/journal.ppat.1008562
