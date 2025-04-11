@@ -16,10 +16,12 @@ https://github.com/WenjinGudaisy/SearcHPV
 ``` 
 Once the pipeline has been succesfully executed, the resulting breakpoint data can be used for visualization. 
 
-Please ensure that the resulting files are stored in the following folder structure :
-    ```
-    /searcHPV_results/Sample_{your_sample_name}/
-    ```
+Please ensure that the resulting files are stored in the following folder structure in your working directory :
+
+   
+    {your_work_dir}/searcHPV_results/Sample_{your_sample_name}/
+
+    
 
 This is required for proper execution of the pipelines. 
 
