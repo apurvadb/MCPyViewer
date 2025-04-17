@@ -1,1 +1,12 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
+*dict filter=lfs diff=lfs merge=lfs -text
+*fa filter=lfs diff=lfs merge=lfs -text
+*amd filter=lfs diff=lfs merge=lfs -text
+*amb filter=lfs diff=lfs merge=lfs -text
+*amn filter=lfs diff=lfs merge=lfs -text
+*bwt filter=lfs diff=lfs merge=lfs -text
+*fai filter=lfs diff=lfs merge=lfs -text
+*pac filter=lfs diff=lfs merge=lfs -text
+*sa filter=lfs diff=lfs merge=lfs -text
+*gtf filter=lfs diff=lfs merge=lfs -text
+*txt filter=lfs diff=lfs merge=lfs -text
