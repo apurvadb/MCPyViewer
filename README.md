@@ -16,14 +16,9 @@ https://github.com/WenjinGudaisy/SearcHPV
 ``` 
 Once the pipeline has been succesfully executed, the resulting breakpoint data can be used for visualization. 
 
-Please ensure that the resulting files are stored in the following folder structure in your working directory :
+Please ensure that the searcHPV results are stored in a output folder starting with "Sample_" for each sample analyzed. For example : **Sample_{your_sample_name}/**
 
-   
-    {your_work_dir}/searcHPV_results/Sample_{your_sample_name}/
-
-    
-
-This is required for proper execution of the pipelines. 
+This is important for proper execution of the pipelines. 
 
 ## Getting started
 
@@ -50,14 +45,15 @@ This is required for proper execution of the pipelines.
 
             conda activate MCPyViewer
 
-All available pipelines for this toolkit are located in the "**scripts/**" folder. 
+All available pipelines for this toolkit are located in the "**scripts/**" folder.
+Please ensure that the searcHPV results are stored in a output folder starting with "Sample_" for each sample analyzed. For example : **Sample_{your_sample_name}/**
 
  # <h3>Generate MCPyV link plots</h3>
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
 Usage:
 
-    ./MCPV_link_plot.sh -w {workdir} -i samples.txt -o intermediate_files/
+    ./MCPV_link_plot.sh -i {full_path_to_integration_data_from_searcHPV} -s samples.txt -o {output_dir}
 
 Note: The expected format for samples.txt is a text file with sample names listed in a single column, under the header "Sample".
 ```
@@ -68,7 +64,7 @@ Sample2
 Sample3
 Sample4
 ```
-Outputs are stored in a directory called "**MCPyV_link_plots**" 
+Outputs are stored in a folder called "**MCPyV_link_plots**" in your output directory. 
 
 Example output plots:
 1. Link plot of viral integration breakpoints within the human and MCPyV genomes, with each line indicating the position of distinct integration breakpoints colored by MCPyV genes that the breakpoint fell within.
@@ -90,12 +86,12 @@ Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Sup
 
 Usage :
 
-    ./MCPV_geneModel.sh -w <workdir> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
+    ./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
 
 Note: 
-The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder.
+The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder. Please unzip the .gz files in the "data/" folder available in the repo. 
 
-If you have not already indexed your merged Human+MCPV reference, please do so by following these commands:
+If you are using a custom reference and have not already indexed your merged Human+MCPV reference file, please do so by following these commands:
 
 ```
 #activate MCPyViewer conda environment first to make sure you are using the correct versions of tools
@@ -104,7 +100,7 @@ bwa index {ref}
 samtools faidx {ref}
 java -jar $PICARDLIB/picard.jar CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
 ```
-We are utilizing the MCPyV reference from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2/. An example reference file available for use can be found at data/hg_mcv.fa.
+We are utilizing the MCPyV reference from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2/. An example reference file available for use can be found at "data/hg_mcv.fa".
 
 Please note that this entire section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
 
@@ -126,13 +122,13 @@ Example :
 #SBATCH --error=geneModel.err
 
 conda activate MCPyViewer
-./MCPV_geneModel.sh -w <workdir> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
+./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
 
 ```
 
 If you encounter an "Ensembl website unresponsive" message, please rerun the pipeline. This issue may arise due to temporary connectivity problems with the Ensembl website.
 
-Outputs are stored in a directory called "**MCPyV_geneModel_plots**"
+Outputs are stored in a folder called "**MCPyV_geneModel_plots**" in your output directory.
 
 Example output :
 
@@ -145,24 +141,23 @@ Representative MCPyV integration events in a tumor.
 ## <h4>Test run on publicly available data [3].</h4> 
 Available here: https://www.ncbi.nlm.nih.gov/sra/ERX4366251
 
-Running from the "scripts/" folder
+Running test from the "scripts/" folder
 
 Usage :
 
 ```
-1. ./MCPV_link_plot.sh -w test/ -i test/test_sample.txt -o test/<your_output_dir>
+1. ./MCPV_link_plot.sh -i test/searcHPV_results/ -s test/test_sample.txt -o test/<your_output_dir>
 
-2. ./MCPV_geneModel.sh -w test/ -t <path to>/data/Homo_sapiens.GRCh38.105.transcript.gtf -e <path to>/data/Homo_sapiens.GRCh38.105.exon.gtf -r <path to>/data/hg_mcv.fa -d test/{your_output_dir} -f <path to>/data/ideogram_hg38_data.txt ERR4425693
+2. ./MCPV_geneModel.sh -i test/searcHPV_results/ -t <path to>/data/Homo_sapiens.GRCh38.105.transcript.gtf -e <path to>/data/Homo_sapiens.GRCh38.105.exon.gtf -r <path to>/data/hg_mcv.fa -d test/{your_output_dir} -f <path to>/data/ideogram_hg38_data.txt ERR4425693
 
 ```
 
-test_sample.txt, MCPV integration analysis results are located in the test folder under "searcHPV_results/Sample_ERR4425693". 
-Outputs will be available in "MCPyV_link_plots" and "MCPyV_geneModel_plots" folders. 
+test_sample.txt, MCPV integration analysis results for test sample are located in the "scripts/test" folder under "searcHPV_results/Sample_ERR4425693". 
+Outputs will be available in the "MCPyV_link_plots" and "MCPyV_geneModel_plots" folders within their respective specified output directories. 
 
 # References 
 
-[1]: Pinatti, Lisa M et al. “SearcHPV: A novel approach to identify and assemble human papillomavirus-host genomic integration events in cancer.” Cancer vol. 127,19 (2021): 3531-3540. doi:10.1002/cncr.33691
-     https://pubmed.ncbi.nlm.nih.gov/34160069/        
+[1]: Pinatti, Lisa M et al. “SearcHPV: A novel approach to identify and assemble human papillomavirus-host genomic integration events in cancer.” Cancer vol. 127,19 (2021): 3531-3540. doi:10.1002/cncr.33691       
 
 [2]: Genomic Signatures of Poor Prognosis in Merkel Cell Carcinoma: A Single-Institution Prospective Study
 
