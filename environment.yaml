@@ -7,6 +7,7 @@ dependencies:
   - python=3.12.1
   - packaging    
   - matplotlib
+  - pandas
   - r-base=4.3.1
   - r-biocmanager
   - bioconductor-biomart
