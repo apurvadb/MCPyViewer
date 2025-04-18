@@ -50,12 +50,23 @@ All available pipelines for this toolkit are located in the "**scripts/**" folde
  # <h3>Generate MCPyV link plots</h3>
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
-Usage:
-(Please ensure that the searcHPV results are stored in a output folder name starting with "Sample_" for each sample analyzed. For example : **Sample_{your_sample_name}/**. Refer to TEST run for clear understanding of the folder structure.)
+**Usage:**
+
+(Please ensure that the searcHPV results are stored in a output folder name starting with "Sample_" for each sample analyzed. 
+For example : **Sample_{your_sample_name}/**. Refer to TEST run for clear understanding of the folder structure.)
 
     ./MCPV_link_plot.sh -i {path_to_output_dir_from_searcHPV} -s samples.txt -o {output_dir}
 
-Note: The expected format for samples.txt is a text file with sample names listed in a single column, under the header "Sample".
+
+**Required arguments :** 
+```
+-i <integration_data> : Path to the searcHPV results folder 
+-s <samples_file>     : Text file with sample names
+-o <output_dir>       : Output directory to store resulting files and plots
+                        Output plots will be stored in a folder called "MCPyV_link_plots" in your specified output directory. 
+```
+
+**Note:** The expected format for samples.txt is a text file with sample names listed in a single column, under the header "Sample".
 ```
 # Example of samples.txt
 Sample
@@ -64,9 +75,9 @@ Sample2
 Sample3
 Sample4
 ```
-Outputs are stored in a folder called "**MCPyV_link_plots**" in your output directory. 
 
-Example output plots:
+
+**Example output plots:**
 1. Link plot of viral integration breakpoints within the human and MCPyV genomes, with each line indicating the position of distinct integration breakpoints colored by MCPyV genes that the breakpoint fell within.
 
 <p align="center">
@@ -84,14 +95,27 @@ number of gapped base pairs at each breakpoint was calculated as negative score,
 # <h3>Generate MCPyV gene model plots</h3>
 Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Supplementary Figure S4).
 
-Usage :
+**Usage :**
 
-    ./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_hum+MCPV_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
+    ./MCPV_geneModel.sh -i <full_path_to_results_folder_from_searcHPV> -t <transcript_gtf_file> -e <exon_gtf_file> -r <hum+MCPV_reference_fasta_file> -d <your_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
 
-Note: 
-For this analysis we are utilizing the human reference file that can be downloaded from https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ and the MCPV reference file from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2?report=fasta
+**Required arguments :** 
 
-These two files can then be merged to create a concatenated reference of human+MCPV genome which can subsequently be indexed.
+```
+-i <integration_data> : Path to the searcHPV results folder
+-t <transcript_gtf>   : GTF file containing transcript annotations (for your genome build)
+-e <exon_gtf>         : GTF file containing exon annotations (for your genome build)
+-r <ref_fa>           : Concatenated reference FASTA file (Human + MCPyV), with index files
+-d <output_dir>       : Output directory to save generated plots and files
+                        Output plots will be stored in a folder called "MCPyV_geneModel_plots" in your specified output directory.
+-f <file_to_process>  : ideogram file specifying chromosomal band locations and coordinates. 
+sample1 sample2 ..    : List of sample names to process, provided as space-separated arguments
+```
+**Note:** 
+
+For this analysis we use the human reference genome available from https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ along with the MCPV reference file from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2?report=fasta
+
+These two reference FASTA files should be concatenated to create a combined human + MCPyV reference genome, which can then be indexed for downstream analysis.
 If you are using a custom reference and have not already indexed your merged Human+MCPV reference file, please do so by following these commands:
 
 ```
@@ -101,12 +125,12 @@ bwa index {ref}
 samtools faidx {ref}
 java -jar $PICARDLIB/picard.jar CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
 ```
-The transcript and exon gtf files for https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ reference are located in the "data/" folder within this repo. These were generated from the corresponding gtf file https://ftp.ensembl.org/pub/release-105/gtf/homo_sapiens/. 
-If you're using a different genome build, please generate these files accordingly. The ideogram_hg38_file is also located in the "data/" folder. 
+The transcript and exon gtf files for https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ reference are located in the "**data/**" folder within this repo. These were generated from the corresponding annotation file from https://ftp.ensembl.org/pub/release-105/gtf/homo_sapiens/. 
+If you're using a different genome build, please generate these files accordingly. The ideogram_hg38_file is also located in the "**data/**" folder. 
 
-Please note that this entire section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
+It is recommended to run this pipeline as a batch script on a compute cluster, as the BWA-based sequence alignment step can be resource-intensive and may require additional memory and computational power.
 
-Example :
+**Example :**
 
 ```
 #!/bin/bash
@@ -124,15 +148,13 @@ Example :
 #SBATCH --error=geneModel.err
 
 conda activate MCPyViewer
-./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_hum+MCPV_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
+ ./MCPV_geneModel.sh -i <full_path_to_results_folder_from_searcHPV> -t <transcript_gtf_file> -e <exon_gtf_file> -r <hum+MCPV_reference_fasta_file> -d <your_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
 
 ```
 
 If you encounter an "Ensembl website unresponsive" message, please rerun the pipeline. This issue may arise due to temporary connectivity problems with the Ensembl website.
 
-Outputs are stored in a folder called "**MCPyV_geneModel_plots**" in your output directory.
-
-Example output :
+**Example output :**
 
 Representative MCPyV integration events in a tumor.
 
@@ -140,12 +162,12 @@ Representative MCPyV integration events in a tumor.
     <img src="Images/geneModel.png" alt="Description" width="800">
 </p> 
 
-## <h4>Test run on publicly available data [3].</h4> 
-Available here: https://www.ncbi.nlm.nih.gov/sra/ERX4366251
+## <h4>Test Run Using Publicly Available Data [3].</h4> 
+The dataset used is accessible via NCBI SRA: ERX4366251
 
-Running test from the "scripts/" folder
+To run the test, navigate to the "**scripts/**" directory and execute:
 
-Usage :
+**Usage :**
 
 ```
 1. ./MCPV_link_plot.sh -i test/searcHPV_results/ -s test/test_sample.txt -o test/<your_output_dir>
@@ -154,8 +176,8 @@ Usage :
 
 ```
 
-test_sample.txt, MCPV integration analysis results for test sample are located in the "scripts/test" folder under "searcHPV_results/Sample_ERR4425693". 
-Outputs will be available in the "MCPyV_link_plots" and "MCPyV_geneModel_plots" folders within their respective specified output directories. 
+test_sample.txt, MCPV integration analysis results for test sample are located in the "**scripts/test**" folder under "**searcHPV_results/Sample_ERR4425693**". 
+Outputs will be available in the "**MCPyV_link_plots**" and "**MCPyV_geneModel_plots**" folders within their respective specified output directories. 
 
 # References 
 
