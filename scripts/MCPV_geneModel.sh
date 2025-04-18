@@ -6,7 +6,7 @@ usage() {
     exit 1
 }
 
-# Initialize variMCV_geneModelles
+# Initialize 
 INTEGRATION_DATA=""
 TRANSCRIPT_GTF=""
 EXON_GTF=""
@@ -38,7 +38,7 @@ shift $((OPTIND - 1))
 # Remaining arguments should be samples
 SAMPLES=("$@")
 
-# Print variMCV_geneModelle values for debugging
+
 echo "INTEGRATION_DATA: $INTEGRATION_DATA"
 echo "TRANSCRIPT_GTF: $TRANSCRIPT_GTF"
 echo "EXON_GTF: $EXON_GTF"
