@@ -22,7 +22,7 @@ def parse_args():
         help="path to searcHPV results for MCPV integration analysis",
     )
     parser.add_argument(
-        "-g", "--gtf", required=True, help="Path to the GTF genome file"
+        "-g", "--gtf", required=True, help="Path to the transcript only GTF genome file"
     )
     parser.add_argument(
         "-e", "--exon_gtf", required=True, help="Path to the exons only GTF genome file"
