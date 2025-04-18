@@ -45,15 +45,15 @@ This is important for proper execution of the pipelines.
 
             conda activate MCPyViewer
 
-All available pipelines for this toolkit are located in the "**scripts/**" folder.
-Please ensure that the searcHPV results are stored in a output folder starting with "Sample_" for each sample analyzed. For example : **Sample_{your_sample_name}/**
+All available pipelines for this toolkit are located in the "**scripts/**" folder. Please run "chmod +x *.sh" to make the scripts executable. 
 
  # <h3>Generate MCPyV link plots</h3>
 Pipeline for generating a link plot of viral integration breakpoints within the human and MCPyV genomes, along with a plot illustrating the distribution of degree of microhomology at MCPyV integration breakpoints (as shown in Figure 3A,B).
 
 Usage:
+(Please ensure that the searcHPV results are stored in a output folder name starting with "Sample_" for each sample analyzed. For example : **Sample_{your_sample_name}/**. Refer to TEST run for clear understanding of the folder structure.)
 
-    ./MCPV_link_plot.sh -i {full_path_to_integration_data_from_searcHPV} -s samples.txt -o {output_dir}
+    ./MCPV_link_plot.sh -i {path_to_output_dir_from_searcHPV} -s samples.txt -o {output_dir}
 
 Note: The expected format for samples.txt is a text file with sample names listed in a single column, under the header "Sample".
 ```
@@ -86,11 +86,12 @@ Pipeline for generating MCPyV integration gene model (as shown in Fig 3C and Sup
 
 Usage :
 
-    ./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
+    ./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_hum+MCPV_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...
 
 Note: 
-The "ideogram_hg38_file (ideogram_hg38_data.txt)", "transcript_gtf (Homo_sapiens.GRCh38.105.transcript.gtf)", "exon_gtf (Homo_sapiens.GRCh38.105.exon.gtf)", "reference_fa (hg_mcv.fa)" files are available in the "**data/**" folder. Please unzip the .gz files in the "data/" folder available in the repo. 
+For this analysis we are utilizing the human reference file that can be downloaded from https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ and the MCPV reference file from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2?report=fasta
 
+These two files can then be merged to create a concatenated reference of human+MCPV genome which can subsequently be indexed.
 If you are using a custom reference and have not already indexed your merged Human+MCPV reference file, please do so by following these commands:
 
 ```
@@ -100,7 +101,8 @@ bwa index {ref}
 samtools faidx {ref}
 java -jar $PICARDLIB/picard.jar CreateSequenceDictionary R={ref} O={ref.replace('.fa','.dict')
 ```
-We are utilizing the MCPyV reference from NCBI, which can be accessed at https://www.ncbi.nlm.nih.gov/nuccore/NC_010277.2/. An example reference file available for use can be found at "data/hg_mcv.fa".
+The transcript and exon gtf files for https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ reference are located in the "data/" folder within this repo. These were generated from the corresponding gtf file https://ftp.ensembl.org/pub/release-105/gtf/homo_sapiens/. 
+If you're using a different genome build, please generate these files accordingly. The ideogram_hg38_file is also located in the "data/" folder. 
 
 Please note that this entire section can be executed as a batch script on a cluster, as it utilizes BWA for sequence alignment, which may demand additional memory and resources.
 
@@ -122,7 +124,7 @@ Example :
 #SBATCH --error=geneModel.err
 
 conda activate MCPyViewer
-./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
+./MCPV_geneModel.sh -i <full_path_to_integration_data_from_searcHPV> -t <path_to_transcript_gtf> -e <path_to_exon_gtf> -r <full_path_to_hum+MCPV_reference_fa> -d <path_to_output_dir> -f <ideogram_hg38_file> <sample1> <sample2> ...    
 
 ```
 
@@ -148,7 +150,7 @@ Usage :
 ```
 1. ./MCPV_link_plot.sh -i test/searcHPV_results/ -s test/test_sample.txt -o test/<your_output_dir>
 
-2. ./MCPV_geneModel.sh -i test/searcHPV_results/ -t <path to>/data/Homo_sapiens.GRCh38.105.transcript.gtf -e <path to>/data/Homo_sapiens.GRCh38.105.exon.gtf -r <path to>/data/hg_mcv.fa -d test/{your_output_dir} -f <path to>/data/ideogram_hg38_data.txt ERR4425693
+2. ./MCPV_geneModel.sh -i test/searcHPV_results/ -t <path to>/data/Homo_sapiens.GRCh38.105.transcript.gtf -e <path to>/data/Homo_sapiens.GRCh38.105.exon.gtf -r <path to human+mcpv ref fasta> -d test/{your_output_dir} -f <path to>/data/ideogram_hg38_data.txt ERR4425693
 
 ```
 
