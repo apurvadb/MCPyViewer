@@ -128,7 +128,7 @@ java -jar $PICARDLIB/picard.jar CreateSequenceDictionary R={ref} O={ref.replace(
 The transcript and exon gtf files for https://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/ reference are located in the "**data/**" folder within this repo. These were generated from the corresponding annotation file from https://ftp.ensembl.org/pub/release-105/gtf/homo_sapiens/. 
 If you're using a different genome build, please generate these files accordingly. The ideogram_hg38_file is also located in the "**data/**" folder. 
 
-It is recommended to run this pipeline as a batch script on a compute cluster, as the BWA-based sequence alignment step can be resource-intensive and may require additional memory and computational power.
+We recommend running this pipeline as a batch script on a compute cluster, as the BWA-based sequence alignment step can be resource-intensive and may require additional memory and computational power.
 
 **Example :**
 
