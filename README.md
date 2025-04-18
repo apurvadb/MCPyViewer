@@ -163,7 +163,7 @@ Representative MCPyV integration events in a tumor.
 </p> 
 
 ## <h4>Test Run Using Publicly Available Data [3].</h4> 
-The dataset used is accessible via NCBI SRA: ERX4366251
+The dataset used is accessible via NCBI SRA: ERX4366251 (https://www.ncbi.nlm.nih.gov/sra/ERX4366251)
 
 To run the test, navigate to the "**scripts/**" directory and execute:
 
